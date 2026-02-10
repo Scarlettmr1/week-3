@@ -14,7 +14,14 @@
       "Bash(git -C \"C:\\\\Users\\\\Scarlett\\\\week-3\" status)",
       "Bash(git -C \"C:\\\\Users\\\\Scarlett\\\\week-3\" init)",
       "Bash(git -C \"C:\\\\Users\\\\Scarlett\\\\week-3\" add .gitignore .claude/)",
-      "Bash(git -C \"C:\\\\Users\\\\Scarlett\\\\week-3\" commit -m \"$\\(cat <<''EOF''\nAdd initial project setup with gitignore and MCP config\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git -C \"C:\\\\Users\\\\Scarlett\\\\week-3\" commit -m \"$\\(cat <<''EOF''\nAdd initial project setup with gitignore and MCP config\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(gh repo create:*)",
+      "Bash(git -C \"C:\\\\Users\\\\Scarlett\\\\week-3\" remote add origin https://github.com/Scarlettmr1/week-3.git)",
+      "Bash(git -C \"C:\\\\Users\\\\Scarlett\\\\week-3\" push -u origin master)",
+      "Bash(git -C \"C:\\\\Users\\\\Scarlett\\\\week-3\" log --oneline origin/master)",
+      "Bash(git -C \"C:\\\\Users\\\\Scarlett\\\\week-3\" diff .claude/settings.local.json)",
+      "Bash(git -C \"C:\\\\Users\\\\Scarlett\\\\week-3\" add .claude/settings.local.json)",
+      "Bash(git -C \"C:\\\\Users\\\\Scarlett\\\\week-3\" commit -m \"$\\(cat <<''EOF''\nUpdate local Claude settings with allowed permissions\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   },
   "enableAllProjectMcpServers": true,
