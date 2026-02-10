@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uvx:*)",
+      "Bash(pip install:*)",
+      "Bash(python -m uv:*)",
+      "Bash(python:*)",
+      "Bash(pip show:*)",
+      "Bash(\"C:\\\\Users\\\\Scarlett\\\\AppData\\\\Roaming\\\\Python\\\\Python314\\\\Scripts\\\\uvx.exe\" --version)",
+      "WebSearch",
+      "Bash(claude mcp list:*)",
+      "Bash(C:UsersScarlettAppDataRoamingPythonPython314Scriptsuvx.exe nanobanana)",
+      "Bash(cmd.exe:*)",
+      "Bash(git -C \"C:\\\\Users\\\\Scarlett\\\\week-3\" status)",
+      "Bash(git -C \"C:\\\\Users\\\\Scarlett\\\\week-3\" init)",
+      "Bash(git -C \"C:\\\\Users\\\\Scarlett\\\\week-3\" add .gitignore .claude/)",
+      "Bash(git -C \"C:\\\\Users\\\\Scarlett\\\\week-3\" commit -m \"$\\(cat <<''EOF''\nAdd initial project setup with gitignore and MCP config\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "nanobanana"
+  ]
+}
